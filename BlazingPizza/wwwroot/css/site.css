@@ -756,3 +756,15 @@ input[type=range] {
         transform: translateX(500px);
     }
 }
+
+/* let the whole page scroll normally until the layout is finished */
+html, body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+}
+
+.content {
+    height: auto;
+    overflow-y: visible;
+}
